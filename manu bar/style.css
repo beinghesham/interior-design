@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  /* background-color: #F3EEEA; */
+}
+body{
+  background-image: url(chic-modern-luxury-aesthetics-style-living-room-gray-tone_53876-132806.avif);
+  background-size: cover;
+  background-position:center ;
+}
+.drope-menu{
+  background-color:white;
+  text-align: center;
+  
+}
+.drope-menu ul{
+  display: inline-flex;
+  list-style: none;
+}
+.drope-menu ul li{
+  width: 120px;
+  margin: 15px;
+  padding: 15px;
+ 
+}
+.drope-menu ul li a{
+  text-decoration: none;
+  color: rgb(12, 12, 12);
+ 
+}
+.text-menu,.drope-menu ul li:hover{
+  background-color: rgb(199, 214, 214);
+  border-radius: 3px;
+
+} 
+.drope-one{
+  display: none;
+}
+.drope-menu ul li:hover .drope-one{
+  display: block;
+  position: absolute;
+  background-color: white;
+  margin-top: 15px;
+  margin-left: -15px
+
+}
+.drope-menu ul li:hover .drope-one ul{
+  display: block;
+  margin: 20px;
+}
+.drope-menu ul li:hover .drope-one ul li{
+  width: 100%;
+  padding: 15px;
+  border-bottom: 1px dotted white;
+  background: transparent;
+  border-radius: 0;
+}
+.drope-one i{
+margin-right: 5px;  
+}
+
+
+
